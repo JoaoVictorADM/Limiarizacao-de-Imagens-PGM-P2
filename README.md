@@ -45,7 +45,7 @@ Lembre-se de seguir a ordem dos passos corretamente para obter os resultados des
 
 ## Observações
 
-Observação sobre o Projeto Final:
+Observação sobre o Projeto :
 
 Este programa foi desenvolvido como projeto final para a disciplina de Estrutura de Dados 1. O principal objetivo do projeto era demonstrar o conhecimento adquirido ao longo da disciplina em relação a ponteiros, alocação dinâmica e, principalmente, a implementação de listas encadeadas.
 
