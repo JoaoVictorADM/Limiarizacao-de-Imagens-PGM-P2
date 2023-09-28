@@ -15,7 +15,7 @@ O programa segue um menu de opções onde o usuário pode executar as seguintes 
 
 ## Economia de Memória
 
-Para economizar memória durante o processamento da imagem, o programa utiliza uma lista encadeada para armazenar apenas os pixels relevantes (pixels de intensidade diferente do pixel de maior intensidade). Dessa forma, evita-se a alocação de memória desnecessária para os pixels que não serão utilizados na limiarização.
+Para economizar memória durante o processamento da imagem, o programa utiliza uma lista encadeada para armazenar apenas os pixels relevantes (pixels de intensidade diferente do pixel intensidade que mais aparace). Dessa forma, evita-se a alocação de memória desnecessária para os pixels que não serão utilizados na limiarização.
 
 Ao carregar a imagem na memória, o programa verifica a intensidade de cada pixel e, se a intensidade for igual ao valor do pixel de maior intensidade (armazenado na variável n_guardar), esse pixel é ignorado e não é adicionado à lista encadeada. Somente os pixels de interesse, ou seja, os pixels com intensidade diferente do valor de n_guardar, são armazenados na lista encadeada. Isso garante que a lista conterá apenas os pixels que serão limiarizados.
 
