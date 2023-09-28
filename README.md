@@ -9,7 +9,7 @@ O conceito de limiarização de imagens é muito utilizado em processamento de i
 O programa segue um menu de opções onde o usuário pode executar as seguintes ações:
 
 - Gerar Histograma: Gera o histograma da imagem PGM, contabilizando o número de vezes que cada intensidade de pixel aparece na imagem. O histograma é utilizado para calcular o limiar de Otsu, que será usado posteriormente para a limiarização.
-- Carregar Imagem: Carrega a imagem PGM selecionada na memória do programa. O programa utiliza um conceito parecido com matriz esparsa para economizar memória, armazenando apenas os pixels de interesse (não considerando os pixels de maior intensidade).
+- Carregar Imagem: Carrega a imagem PGM selecionada na memória do programa. O programa utiliza um conceito parecido com matriz esparsa para economizar memória, armazenando apenas os pixels de interesse (não considerando o pixel mais frequente).
 - Limiarizar Imagem: Realiza a limiarização da imagem carregada na memória, convertendo-a em uma imagem binária (preto e branco). O limiar utilizado é o valor calculado previamente no passo 1.
 - Sair: Encerra o programa.
 
